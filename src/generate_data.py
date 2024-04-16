@@ -3,16 +3,14 @@
 
 This is a code for generating ground motion data and corresponding condition labels using a model after training.
 The generation of data requires Python code that defines the model used for training and a "*.pth" file containing
-the model parameters after training. The data saved consist of the following four files:
+the model parameters after training. The data saved consist of the following three files:
 
     1. wave_epoch_*.npy:  Generated ground motion data. This is a 2D numpy array with the shape (noise_num, wave_len).
                           The ground motion data saved in this file are normalized in amplitude.
-    2. int_w_epoch_*.npy: Intermediate latent variables corresponding to the generated ground motion data.
-                          This is a 2D numpy array with the shape (noise_num, w_dim).
-    3. label_epoch_*.csv: Data of condition labels corresponding to the generated ground motion data.
+    2. label_epoch_*.csv: Data of condition labels corresponding to the generated ground motion data.
                           Saved as a csv file. The shape of the data is (noise_num, label_dim).
                           The header contains the names of the condition labels used in the training source file.
-    4. input_noise.npy:   An array of noise z used for generating data.
+    3. input_noise.npy:   An array of noise z used for generating data.
                           This is a 2D numpy array with the shape (noise_num, z_dim).
                           In this code, the same noise is used for each epoch, so only one file is saved.
 """

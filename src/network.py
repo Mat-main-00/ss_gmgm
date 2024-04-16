@@ -26,7 +26,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 print("device: ", device)
 
 
-# データセット
+# Dataset
 class GroundMotionDatasets(Dataset):
     """
     Dataset class for ground motion data and label data.
