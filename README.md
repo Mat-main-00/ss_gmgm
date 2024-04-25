@@ -1,7 +1,10 @@
 # Generation of ground motion data by styleGAN2
-<!-- This repository contains the code and hyperparameters for the paper:
+This repository contains the code and hyperparameters for the paper:
 
-"Site-Specific Ground Motion Generative Model for Crustal Earthquakes in Japan Based on Generative Adversarial Networks." Matsumoto, Y., Yaoyama, T., Lee, S., Hida, T., and Itoi, T. (2024). -->
+"Site-Specific Ground Motion Generative Model for Crustal Earthquakes in Japan Based on Generative Adversarial Networks." Matsumoto, Y., Yaoyama, T., Lee, S., Hida, T., and Itoi, T., 
+https://arxiv.org/abs/2404.15640 (2024).
+
+Please cite this paper if you use the code in this repository as part of a published research project.
 
 ## Operating Environment
 The codes in this repository has been tested and is known to run under the following environment:
