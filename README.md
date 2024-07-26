@@ -4,6 +4,8 @@ This repository contains the code and hyperparameters for the paper:
 "Site-Specific Ground Motion Generative Model for Crustal Earthquakes in Japan Based on Generative Adversarial Networks." Matsumoto, Y., Yaoyama, T., Lee, S., Hida, T., and Itoi, T., 
 https://arxiv.org/abs/2404.15640 (2024).
 
+The list of earthquakes and observation staions in the dataset used for the above study can be found in the `eq_station_info.csv` file in the `data` directory.
+
 Please cite this paper if you use the code in this repository as part of a published research project.
 
 ## Operating Environment
