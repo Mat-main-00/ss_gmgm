@@ -1,7 +1,7 @@
 # Generation of ground motion data by styleGAN2
 This repository contains the code and hyperparameters for the paper:
 
-"Yuma Matsumoto, Taro Yaoyama, Sangwon Lee, Takenori Hida, Tatsuya Itoi; Generative Adversarial Networks‐Based Ground‐Motion Model for Crustal Earthquakes in Japan Considering Detailed Site Conditions. Bulletin of the Seismological Society of America 2024; doi: https://doi.org/10.1785/0120240070.
+"Yuma Matsumoto, Taro Yaoyama, Sangwon Lee, Takenori Hida, Tatsuya Itoi; Generative Adversarial Networks‐Based Ground‐Motion Model for Crustal Earthquakes in Japan Considering Detailed Site Conditions. Bulletin of the Seismological Society of America, 2024;; 114 (6): 2886–2911. doi: https://doi.org/10.1785/0120240070.
 
 The list of earthquakes and observation staions in the dataset used for the above study can be found in the `eq_station_info.csv` file in the `data` directory.
 
